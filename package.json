@@ -1,0 +1,30 @@
+{
+  "name": "webpack-vue2-js",
+  "version": "1.0.0",
+  "description": "基于 webpack + Vue 2 + JavaScript 搭建的基础项目",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon-yung/webpack-vue2-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gordon-yung/webpack-vue2-js/issues"
+  },
+  "homepage": "https://github.com/gordon-yung/webpack-vue2-js#readme",
+  "dependencies": {
+    "vue": "2.7.16"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "5.6.7",
+    "webpack": "5.107.2",
+    "webpack-cli": "7.0.3"
+  }
+}
